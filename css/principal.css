@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset da modelo */
+.icone-home, 
+#titulos,
+.conteudos-nav {
+	display: none !important;
+	visibility: hidden !important;
+}
+.corpo {
+	margin-bottom: 40px;
+	z-index: 10;
+}
+.rodape-semicirculo:before {
+	width: 5px;
+}
+/* banners */
+.banners {
+	display: block;
+}
+/* produtos */
+.produtos-container {
+	display: inline-block;
+	float: left;
+	max-width: 520px;
+	width: 100%;
+}
+.produtos-cabecalho {
+	background: #ffffff;
+	border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	color: #0060ad;
+	font-family: 'flexobold';
+	font-size: 4rem;
+	letter-spacing: -.2rem;
+	margin: 0;
+	margin-bottom: 38px;
+	margin-left: 15px;
+	max-width: 285px;
+	padding: 4px 2px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.produtos-item-1 {
+	background: url(../img/home-paineis-solares.jpg) no-repeat left top;
+	background-size: 100%;
+	color: #ffffff;
+	display: block;
+	font-family: 'flexobold';
+	font-size: 4rem;
+	letter-spacing: -.2rem;
+	margin: 0;
+	margin-bottom: 25px;
+	max-width: 544px;
+	padding: 40px 203px 112px 297px;
+	position: relative;
+	text-shadow: 0px 2px 0px rgba(184, 125, 11, 0.129);
+	text-transform: uppercase;
+	width: 100%;
+}
+.produtos-item-1 a {
+	color: #ffffff;
+	display: block;
+	height: 100%;
+	left: 0;
+	padding: 50px 203px 55px 297px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.produtos-item-1 a:hover,
+.produtos-item-1 a:focus {
+	background: rgba(0,0,0,0.10);
+	text-decoration: none;
+}
+.produtos-item-1 strong {
+	display: block;
+	font-family: 'flexolight';
+	font-size: 2rem;
+	letter-spacing: -.02rem;
+	line-height: 8px;
+	position: relative;
+	width: 100%;
+}
+.produtos-item-1 strong:before {
+	background: #ffffff;
+	box-shadow: 0px 2px 0px rgba(184, 125, 11, 0.129);
+	content: '';
+	height: 72px;
+	left: -13px;
+	position: absolute;
+	top: -47px;
+	width: 2px;
+}
+.produtos-item-2 {
+	background: url(../img/home-estruturas-e-suportes-energia-solar.jpg) no-repeat right top #ffffff;
+	border: solid 2px #e7d4ae;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	color: #29292b;
+	display: block;
+	font-family: 'flexobold';
+	font-size: 1.3rem;
+	letter-spacing: -.02rem;
+	margin: 0;
+	margin-bottom: 44px;
+	max-width: 544px;
+	min-height: 159px;
+	padding: 26px 194px 24px 29px;
+	position: relative;
+	width: 100%;
+}
+.produtos-item-2 a {
+	color: #29292b;
+	display: block;
+	height: 100%;
+	left: 0;
+	padding: 26px 194px 24px 29px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.produtos-item-2 a:hover,
+.produtos-item-2 a:focus {
+	opacity: .8;
+	text-decoration: none;
+}
+.produtos-item-2-titulo {
+	background-image: -moz-linear-gradient( 90deg, rgb(0,75,173) 0%, rgb(0,103,223) 96%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,75,173) 0%, rgb(0,103,223) 96%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,75,173) 0%, rgb(0,103,223) 96%);
+	color: #ffffff;
+	display: block;
+	font-family: 'flexolight';
+	font-size: 2rem;
+	margin-bottom: 39px;
+	margin-left: -29px;
+	padding: 3px 2px 3px 34px;
+	position: relative;
+	text-shadow: 0px 2px 0px rgba(184, 125, 11, 0.129);
+	width: 112%;
+}
+.produtos-item-2-titulo:before {
+	border-style: solid;
+	border-width: 0 14px 14px 0;
+	border-color: transparent #ffffff transparent transparent;
+	content: '';
+	height: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+}
+.produtos-item-2-titulo:after {
+	border-style: solid;
+	border-width: 0 0 14px 14px;
+	border-color: transparent transparent #ffffff transparent;
+	bottom: 0;
+	content: '';
+	height: 0;
+	position: absolute;
+	right: 0;
+	width: 0;
+}
+.produtos-link {
+	color: #a26c03;
+	display: block;
+	font-family: 'flexobold';
+	font-size: 1.5rem;
+	height: 40px;
+	max-width: 145px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+}
+.produtos-link span {
+	background: #ffffff;
+	display: block;
+	height: 100%;
+	left: 0;
+	max-width: 143px;
+	padding: 7px 2px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+.produtos-link:before {
+	background-image: -moz-linear-gradient( 0deg, rgb(255,180,19) 0%, rgb(255,255,255) 91%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(255,180,19) 0%, rgb(255,255,255) 91%);
+	background-image: -ms-linear-gradient( 0deg, rgb(255,180,19) 0%, rgb(255,255,255) 91%);
+	content: '';
+	display: block;
+	height: 42px;
+	left: -1px;
+	max-width: 148px;
+	position: absolute;
+	top: -1px;
+	width: 100%;
+	z-index: 1;
+}
+.produtos-link:hover,
+.produtos-link:focus {
+	color: #a26c03;
+	text-decoration: none;
+}
+.produtos-link:hover:before {
+	background-image: -moz-linear-gradient( 0deg, rgb(255,180,19) 0%, rgb(255,180,19) 91%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(255,180,19) 0%, rgb(255,180,19) 91%);
+	background-image: -ms-linear-gradient( 0deg, rgb(255,180,19) 0%, rgb(255,180,19) 91%);
+}
+/* noticias */
+.noticias-container {
+	border-left: solid 1px #ffae00;
+	display: inline-block;
+	float: right;
+	margin-top: 32px;
+	max-width: 538px;
+	width: 100%;
+}
+.noticias-cabecalho {
+	background: #fed93f;
+	border-bottom: solid 5px #c99d48;
+	color: #a26c03;
+	font-family: 'flexobold';
+	font-size: 2.8rem;
+	letter-spacing: -0.15rem;
+	margin-bottom: 27px;
+	max-width: 192px;
+	padding: 7px 2px;
+	text-align: center;
+	width: 100%;
+}
+.noticias {
+	padding-left: 4.6%;
+}
+.noticia {
+	border-bottom: solid 1px #ffae00;
+	margin-bottom: 15px;
+}
+.noticias > article:last-child {
+	border-bottom: none;
+}
+.noticia a {
+	background: url(../img/icone-noticia.svg) no-repeat 4px 10px;
+	background-size: 38px 50px;
+	border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	color: #737678;
+	display: block;
+	font-family: 'flexoregular';
+	font-size: 1.4rem;
+	line-height: 16px;
+	padding: 8px 6px 15px 55px;
+}
+.noticias > article:last-child a {
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.noticia a:hover,
+.noticia a:focus {
+	background: url(../img/icone-noticia.svg) no-repeat 4px 10px rgba(209,209,209,0.18);
+	background-size: 38px 50px;
+	text-decoration: none;
+}
+.noticia-icone {
+}
+.noticia-data {
+	color: #383a3b;
+	font-family: 'flexobold';
+	font-size: 1.3rem;
+}
+.noticia-titulo {
+	color: #737678;
+	font-family: 'flexobold';
+	font-size: 1.3rem;
+}
+.noticias-link {
+	background: #0060ad;
+	border: solid 1px #0060ad;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	color: #ffffff;
+	float: right;
+	font-family: 'flexobold';
+	font-size: 1.3rem;
+	letter-spacing: -.015rem;
+	max-width: 125px;
+	padding: 2px;
+	text-align: center;
+	width: 100%;
+}
+.noticias-link:hover,
+.noticias-link:focus {
+	background: #ffffff;
+	color: #0060ad;
+	text-decoration: none;
+}
+@media screen and (min-width:1730px) {
+.rodape-semicirculo:before {
+	width: 3px;
+}
+}
+@media screen and (max-width:1675px) {
+.corpo {
+	margin-bottom: 70px;
+}
+}
+@media screen and (max-width:1130px) {
+.produtos-container,
+.noticias-container {
+	display: block;
+	float: none;
+	max-width: 1120px;
+}
+.produtos-container {
+	text-align: center;
+}
+.produtos-cabecalho {
+	margin-bottom: 5px;
+}
+.produtos-item-1,
+.produtos-item-2,
+.produtos-link {
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+}
+.produtos-item-2 {
+	margin: 20px auto;
+}
+.produtos-link {
+	border: solid 1px #FFB413;
+}
+.produtos-link,
+.produtos-link span {
+	max-width: 544px;
+	text-align: center;
+	width: 100%;
+}
+.produtos-link span:hover {
+	background: #FFB413;
+	color: #ffffff;
+}
+.produtos-link:before {
+	display: none;
+}
+.noticias-container {
+	border-left: none;
+}
+.noticias-cabecalho {
+	margin-bottom: 5px;
+	max-width: 1120px;
+	padding-left: 18px;
+	text-align: left;
+}
+.noticias {
+	padding-left: 15px;
+}
+.noticias-link {
+	background: #ffffff;
+	color: #0060ad;
+	display: block;
+	float: none;
+	margin: 15px auto;
+	max-width: 320px;
+}
+.noticias-link:hover {
+	background: #0060ad;
+	color: #ffffff;
+}
+}
+@media screen and (max-width:767px) {
+.corpo {
+	margin-top: 50px;
+}
+.produtos-cabecalho {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-bottom: solid 5px #fed93f;
+	font-size: 2.8rem;
+	margin-left: 0;
+	max-width: 757px;
+	padding-bottom: 0;
+	text-align: left;
+}
+}
+@media screen and (max-width:536px) {
+.produtos-item-1 {
+	padding: 1vw 2% 19vw 2%;
+}
+.produtos-item-1 a {
+	padding: 1vw 2% 19vw 2%;
+	text-align: right;
+}
+.produtos-item-1 strong:before {
+	display: none;
+}
+}
+@media screen and (max-width:500px) {
+.produtos-item-2 a {
+	background: rgba(255,255,255,0.85);
+	padding: 4vw 11% 19vw 29px;
+}
+}
